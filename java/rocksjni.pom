@@ -9,7 +9,7 @@
     <groupId>org.rocksdb</groupId>
     <artifactId>rocksdbjni</artifactId>
     <!-- Version will be automatically replaced -->
-    <version>-</version>
+    <version>5.18.34</version>
     <description>RocksDB fat jar that contains .so files for linux32 and linux64, jnilib files
         for Mac OSX, and a .dll for Windows x64.
     </description>
@@ -128,6 +128,12 @@
     </build>
 
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/io.dropwizard.metrics/metrics-core -->
+        <dependency>
+            <groupId>io.dropwizard.metrics</groupId>
+            <artifactId>metrics-core</artifactId>
+            <version>4.1.0</version>
+        </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>

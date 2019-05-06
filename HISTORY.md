@@ -1,4 +1,20 @@
 # Rocksdb Change Log
+## 5.18.34 (9/17/2019)
+### Bitpusher Fork
+* Update library dependencies.
+
+## 5.18.33 (5/23/2019)
+### Bitpusher Fork
+* Release multiplatform build.
+
+## 5.18.32 (5/7/2019)
+### Bitpusher Fork
+* Automatically export ticker statistics for all databases opened via Dropwizard Metrics.
+
+## 5.18.31 (5/6/2019)
+### Bitpusher Fork
+* Add a digit to the patchlevel as a means of distinguishing between Bitpusher-local forked versions and upstream.
+
 ## 5.18.3 (2/11/2019)
 ### Bug Fixes
 * Fix possible LSM corruption when both range deletions and subcompactions are used. The symptom of this corruption is L1+ files overlapping in the user key space.
